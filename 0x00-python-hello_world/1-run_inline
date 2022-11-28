@@ -1,2 +1,2 @@
-PYCODE = (f"Best School: {88+10}")
-print(PYCODE)
+#!/bin/bash
+python3 <<< $PYCODE
