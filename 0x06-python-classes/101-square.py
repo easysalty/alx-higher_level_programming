@@ -16,7 +16,6 @@ class Square:
         self.position = position
 
     @property
-
     def size(self):
         """Get/set the current size of the square."""
         return (self.__size)
@@ -43,8 +42,7 @@ class Square:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
-
-   def area(self):
+    def area(self):
         """Return the current area of the square."""
         return (self.__size * self.__size)
 
